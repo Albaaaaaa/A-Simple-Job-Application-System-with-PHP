@@ -36,15 +36,10 @@ $appl  = $applicant->single_applicant($_SESSION['APPLICANTID']);
                         </div>
                         <!-- /.mailbox-read-info -->
                         <div class="mailbox-controls with-border text-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Delete">
-                                    <i class="fa fa-trash-o"></i>
-                                </button>
-                            </div>
                         </div>
                         <!-- /.mailbox-controls -->
                         <div class="mailbox-read-message">
-                            <p>Hello <?php echo $appl->FNAME; ?>,</p>  
+                            <pllo <?php echo $appl->FNAME; ?>,</p>  
                             <p><?php echo $res->REMARKS; ?></p>
                             <p>Thanks,<br><?php echo $res->COMPANYNAME; ?></p>
                         </div>
