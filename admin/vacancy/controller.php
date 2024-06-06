@@ -89,7 +89,7 @@ switch ($action) {
 			$job = New Jobs();
 			$job->delete($id);
 
-			message("Perusahaan Telah Dihapus!","info");
+			message("Lowongan Kerja Telah Dihapus!","info");
 			redirect('index.php');
 		
 	}

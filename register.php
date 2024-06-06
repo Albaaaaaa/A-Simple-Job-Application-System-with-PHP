@@ -157,7 +157,7 @@
 			    <div class="col-md-8">
 			      
 			       <input class="form-control input-sm" id="TELNO" name="TELNO" placeholder=
-			          "No. Kontak" type="text" any value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
+			          "Nomor Telepon" type="text" any value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
 			    </div>
 			  </div>
 			</div> 
@@ -170,7 +170,7 @@
 			    <div class="col-md-8">
 			      <select class="form-control input-sm" name="CIVILSTATUS" id="CIVILSTATUS">
 			          <option value="none" >Pilih</option>
-			          <option value="Single">Tidak kawin</option>
+			          <option value="Single">Belum Menikah</option>
 			          <option value="Married">Menikah</option>
 			          <option value="Widow" >Bercerai</option>
 			          <!-- <option value="Fourth" >Fourth</option> -->

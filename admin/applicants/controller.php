@@ -128,7 +128,7 @@ function doEdit(){
                 $emp->COMPANYID = $_POST['COMPANYID'];
                 $emp->update($_POST['EMPLOYEEID']);
 
-                message("Employee has been updated!", "success");
+                message("Pelamar Berhasil di Update", "success");
                 redirect("index.php?view=edit&id=".$_POST['EMPLOYEEID']);
             }
         }
@@ -201,7 +201,7 @@ function doApproved(){
                 $cur = $mydb->executeQuery();
             }
 
-            message("Applicant is calling for an interview.", "success");
+            message("Pelamar dipanggil untuk wawancara.", "success");
             redirect("index.php?view=view&id=".$id); 
         } else {
             message("Cannot be saved.", "error");

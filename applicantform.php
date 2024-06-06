@@ -67,7 +67,7 @@
 <div class="form-group">
 	<div class="col-md-11">
 		<label class="col-md-4 control-label" for=
-		"Gender">Gender:</label>
+		"Gender">Jenis Kelamin:</label>
 
 		<div class="col-md-8">
 		 <div class="col-lg-5">
@@ -163,7 +163,7 @@
     <div class="col-md-8">
       
        <input class="form-control input-sm" id="TELNO" name="TELNO" placeholder=
-          "No. Kontak." type="text" any value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
+          "Nomor Telepon" type="text" any value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
     </div>
   </div>
 </div> 
@@ -171,7 +171,7 @@
  <div class="form-group">
   <div class="col-md-11">
     <label class="col-md-4 control-label" for=
-    "CIVILSTATUS">Kewarganegaraan :</label>
+    "CIVILSTATUS">Status :</label>
 
     <div class="col-md-8">
       <select class="form-control input-sm" name="CIVILSTATUS" id="CIVILSTATUS">
