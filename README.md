@@ -36,18 +36,19 @@ Ensure your system has **PHP** and **MySQL** installed.
 
 1. **Clone the Repository:**  
    ```sh
-   git clone GITHUB_REPO_LINK
+   git clone https://github.com/Albaaaaaa/A-Simple-Job-Application-System-with-PHP
 
 2. **Navigate to the project directory and install dependencies:**  
    
    ```sh
-   cd project_directory
+   cd A-Simple-Job-Application-System-with-PHP
    composer install
    
-3. **Configure the database:**
-   →Import database.sql into the database.
-   →Create a new MySQL database.
-   →Update the .env file with database credentials.
+3. **Configure the database:**  
+   - Import `database.sql` into the database.  
+   - Create a new MySQL database.  
+   - Update the `.env` file with database credentials.  
+
    
 4. Run the application and open your Browser:
    ```sh
