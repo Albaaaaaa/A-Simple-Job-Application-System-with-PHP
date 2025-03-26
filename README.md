@@ -37,3 +37,9 @@ Ensure your system has **PHP** and **MySQL** installed.
 1. **Clone the Repository:**  
    ```sh
    git clone GITHUB_REPO_LINK
+
+2.  **Navigate to the project directory and install dependencies:**
+   ```sh
+   cd project_directory
+   composer install
+3.
