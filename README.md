@@ -38,8 +38,17 @@ Ensure your system has **PHP** and **MySQL** installed.
    ```sh
    git clone GITHUB_REPO_LINK
 
-2.  **Navigate to the project directory and install dependencies:**
+2. **Navigate to the project directory and install dependencies:**  
+   
    ```sh
    cd project_directory
    composer install
-3.
+   
+3. **Configure the database:**
+   →Import database.sql into the database.
+   →Create a new MySQL database.
+   →Update the .env file with database credentials.
+   
+4. Run the application and open your Browser:
+   ```sh
+   php -S localhost:8000 
