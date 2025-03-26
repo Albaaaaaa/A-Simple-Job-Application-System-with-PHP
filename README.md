@@ -1,6 +1,6 @@
 # 🌟 Web Project Description: D'Lokerz 🌟
 
-![Mockup 1](GITHUB_IMAGE_LINK)
+![Mockup 1](https://raw.githubusercontent.com/Albaaaaaa/A-Simple-Job-Application-System-with-PHP/main/documentation/Desain%20Dlokerz.gif)
 
 D'Lokerz is a web-based job vacancy platform designed to assist job seekers in finding suitable opportunities and to help companies recruit the right candidates efficiently.
 
